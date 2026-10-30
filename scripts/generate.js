@@ -33,7 +33,7 @@ const CONFIG = {
     badge: 'Flagship',
     screenLabel: 'Yelpcamp - PREVIEW',
     image: 'assets/projects/Yelpcamp',
-    tagline: 'A CampGround Discovery Web Application',
+    tagline: 'A Campground Discovery Web Application',
     description:
       'A full-stack campground discovery and review application where users can browse campgrounds, view photo galleries and interactive maps, search listings, leave star-rated reviews, and manage their own listings. Built with Node.js, Express, and MongoDB.',
     tags: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Node.js', 'Express.js', 'MongoDB', 'ejs', '...'],
@@ -494,7 +494,7 @@ ${logoSvg}`;
     open(W, h) +
     frame(W, h) +
     titleBar(W, CONFIG.user.toLowerCase() + ' - profile-scan') +
-    `<text x="34" y="66" font-size="13"><tspan fill="${G}" fill-opacity=".65">${esc(CONFIG.user.toLowerCase())}@github:~$ </tspan><tspan fill="${G}">./profile-scan ${SAMPLE ? '--sample' : '--live'}</tspan><tspan fill="${G}" class="blink"> _</tspan></text>
+    `<text x="34" y="66" font-size="13"><tspan fill="${G}" fill-opacity=".65">${esc(CONFIG.user.toLowerCase())}@github:~$ </tspan><tspan fill="${G}">./DevouraStudio ${SAMPLE ? '--sample' : '--live'}</tspan><tspan fill="${G}" class="blink"> _</tspan></text>
 ${panel(30, 82, 340, 230)}
 ${panel(390, 82, 400, 230)}
 ${logoPanel}
@@ -672,7 +672,7 @@ ${panel(x, 84, cw, 92, 12)}
 <rect x="${x + 18}" y="158" width="0" height="4" rx="2" fill="${G}" class="metric-accent"><animate attributeName="width" from="0" to="${(barW * pct).toFixed(1)}" dur="1.2s" begin="0.6s" fill="freeze"/></rect>
 </g>\n`;
   });
-  return open(W, h) + frame(W, h) + heading('Profile Signal', SAMPLE ? 'SAMPLE DATA — NOT LIVE ACCOUNT STATISTICS' : 'Verified GitHub account statistics') + cards + '</svg>\n';
+  return open(W, h) + frame(W, h) + heading('Profile Signal', SAMPLE ? 'SAMPLE DATA — NOT LIVE ACCOUNT STATISTICS' : 'Verified Devoura statistics') + cards + '</svg>\n';
 }
 
 async function featured() {
@@ -765,7 +765,7 @@ function projectsHead() {
   return (
     open(W, h) +
     frame(W, h) +
-    heading('Projects', 'Selected work, components and full-stack apps') +
+    heading('Projects', 'A Collection Of Digital Products & Experiences') +
     `<text x="${W - 34}" y="46" font-size="12" fill="${G}" fill-opacity=".8" text-anchor="end">${CONFIG.projects.length} entries</text>
 </svg>
 `
@@ -837,7 +837,7 @@ function languages(data) {
 <text x="${W - 34}" y="${y}" font-size="12" fill="${G}" fill-opacity=".8" text-anchor="end">${l.pct}%</text>
 </g>\n`;
   });
-  return open(W, h) + frame(W, h) + heading('Most Used Languages', SAMPLE ? 'SAMPLE DATA — NOT LIVE' : 'Code-byte share across public, non-fork repositories') + out + '</svg>\n';
+  return open(W, h) + frame(W, h) + heading('Most Used Languages', SAMPLE ? 'SAMPLE DATA — NOT LIVE' : "What's Cooking in My Codebase?") + out + '</svg>\n';
 }
 
 async function stack() {
