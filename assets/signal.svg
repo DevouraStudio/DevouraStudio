@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="200" viewBox="0 0 820 200" role="img">
+<defs>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+.fade{opacity:0;animation:fade .7s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes fade{to{opacity:1}}
+.fade-up{opacity:0;animation:fade-up .7s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes fade-up{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:translateY(0)}}
+.blink{animation:blink 1.4s steps(1) infinite}
+@keyframes blink{50%{opacity:.25}}
+.float{animation:float 6s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-5px)}}
+.metric-card{transform-box:fill-box;transform-origin:center;transition:transform .28s ease,filter .28s ease}
+.metric-card:hover{transform:translateY(-4px);filter:url(#glow)}
+.metric-card .metric-outline{transition:stroke-opacity .28s ease,stroke-width .28s ease}
+.metric-card:hover .metric-outline{stroke-opacity:.95;stroke-width:2}
+.project-card{opacity:0;animation:fade .65s ease forwards;transform-box:fill-box;transform-origin:center;transition:transform .25s ease,filter .25s ease}
+.project-card:hover{transform:translateY(-3px);filter:url(#glow)}
+@keyframes breathe{0%,100%{opacity:.72}50%{opacity:1}}
+.metric-accent{animation:breathe 4.5s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){.fade,.fade-up{opacity:1;animation:none}.blink,.float,.metric-accent{animation:none}.metric-card,.project-card{transition:none}.metric-card:hover,.project-card:hover{transform:none;filter:none}}
+
+</style>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#50BD49" stop-opacity=".16"/><stop offset=".6" stop-color="#50BD49" stop-opacity=".03"/><stop offset="1" stop-color="#50BD49" stop-opacity=".08"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#50BD49" stop-opacity=".8"/><stop offset=".5" stop-color="#50BD49" stop-opacity=".25"/><stop offset="1" stop-color="#50BD49" stop-opacity=".6"/></linearGradient>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect x="1" y="1" width="818" height="198" rx="16" fill="#002913"/>
+<rect x="1" y="1" width="818" height="198" rx="16" fill="url(#bg)" stroke="url(#edge)" stroke-width="1.5"/>
+<text x="34" y="46" font-size="22" font-weight="700" fill="#50BD49" filter="url(#glow)">Profile Signal</text>
+<text x="34" y="68" font-size="12" fill="#50BD49" fill-opacity=".7">SAMPLE DATA — NOT LIVE ACCOUNT STATISTICS</text>
+<g class="fade metric-card" style="animation-delay:0.20s">
+<rect x="34" y="84" width="176" height="92" rx="12" fill="#002913" stroke="#50BD49" stroke-opacity=".3"/>
+<rect class="metric-outline" x="34" y="84" width="176" height="92" rx="12" fill="none" stroke="#50BD49" stroke-opacity=".3"/>
+<text x="52" y="106" font-size="11" fill="#50BD49" fill-opacity=".7">Total Commits</text>
+<text x="52" y="144" font-size="34" font-weight="700" fill="#50BD49" filter="url(#glow)">200</text>
+<rect x="52" y="158" width="140" height="4" rx="2" fill="#50BD49" fill-opacity=".2"/>
+<rect x="52" y="158" width="0" height="4" rx="2" fill="#50BD49" class="metric-accent"><animate attributeName="width" from="0" to="140.0" dur="1.2s" begin="0.6s" fill="freeze"/></rect>
+</g>
+<g class="fade metric-card" style="animation-delay:0.32s">
+<rect x="226" y="84" width="176" height="92" rx="12" fill="#002913" stroke="#50BD49" stroke-opacity=".3"/>
+<rect class="metric-outline" x="226" y="84" width="176" height="92" rx="12" fill="none" stroke="#50BD49" stroke-opacity=".3"/>
+<text x="244" y="106" font-size="11" fill="#50BD49" fill-opacity=".7">Contributions</text>
+<text x="244" y="144" font-size="34" font-weight="700" fill="#50BD49" filter="url(#glow)">721</text>
+<rect x="244" y="158" width="140" height="4" rx="2" fill="#50BD49" fill-opacity=".2"/>
+<rect x="244" y="158" width="0" height="4" rx="2" fill="#50BD49" class="metric-accent"><animate attributeName="width" from="0" to="140.0" dur="1.2s" begin="0.6s" fill="freeze"/></rect>
+</g>
+<g class="fade metric-card" style="animation-delay:0.44s">
+<rect x="418" y="84" width="176" height="92" rx="12" fill="#002913" stroke="#50BD49" stroke-opacity=".3"/>
+<rect class="metric-outline" x="418" y="84" width="176" height="92" rx="12" fill="none" stroke="#50BD49" stroke-opacity=".3"/>
+<text x="436" y="106" font-size="11" fill="#50BD49" fill-opacity=".7">Public Repos</text>
+<text x="436" y="144" font-size="34" font-weight="700" fill="#50BD49" filter="url(#glow)">18</text>
+<rect x="436" y="158" width="140" height="4" rx="2" fill="#50BD49" fill-opacity=".2"/>
+<rect x="436" y="158" width="0" height="4" rx="2" fill="#50BD49" class="metric-accent"><animate attributeName="width" from="0" to="140.0" dur="1.2s" begin="0.6s" fill="freeze"/></rect>
+</g>
+<g class="fade metric-card" style="animation-delay:0.56s">
+<rect x="610" y="84" width="176" height="92" rx="12" fill="#002913" stroke="#50BD49" stroke-opacity=".3"/>
+<rect class="metric-outline" x="610" y="84" width="176" height="92" rx="12" fill="none" stroke="#50BD49" stroke-opacity=".3"/>
+<text x="628" y="106" font-size="11" fill="#50BD49" fill-opacity=".7">Followers</text>
+<text x="628" y="144" font-size="34" font-weight="700" fill="#50BD49" filter="url(#glow)">41</text>
+<rect x="628" y="158" width="140" height="4" rx="2" fill="#50BD49" fill-opacity=".2"/>
+<rect x="628" y="158" width="0" height="4" rx="2" fill="#50BD49" class="metric-accent"><animate attributeName="width" from="0" to="140.0" dur="1.2s" begin="0.6s" fill="freeze"/></rect>
+</g>
+</svg>

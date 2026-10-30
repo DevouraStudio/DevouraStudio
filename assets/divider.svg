@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="16" viewBox="0 0 820 16" role="img">
+<defs>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+.fade{opacity:0;animation:fade .7s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes fade{to{opacity:1}}
+.fade-up{opacity:0;animation:fade-up .7s cubic-bezier(.2,.7,.2,1) forwards}
+@keyframes fade-up{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:translateY(0)}}
+.blink{animation:blink 1.4s steps(1) infinite}
+@keyframes blink{50%{opacity:.25}}
+.float{animation:float 6s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-5px)}}
+.metric-card{transform-box:fill-box;transform-origin:center;transition:transform .28s ease,filter .28s ease}
+.metric-card:hover{transform:translateY(-4px);filter:url(#glow)}
+.metric-card .metric-outline{transition:stroke-opacity .28s ease,stroke-width .28s ease}
+.metric-card:hover .metric-outline{stroke-opacity:.95;stroke-width:2}
+.project-card{opacity:0;animation:fade .65s ease forwards;transform-box:fill-box;transform-origin:center;transition:transform .25s ease,filter .25s ease}
+.project-card:hover{transform:translateY(-3px);filter:url(#glow)}
+@keyframes breathe{0%,100%{opacity:.72}50%{opacity:1}}
+.metric-accent{animation:breathe 4.5s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){.fade,.fade-up{opacity:1;animation:none}.blink,.float,.metric-accent{animation:none}.metric-card,.project-card{transition:none}.metric-card:hover,.project-card:hover{transform:none;filter:none}}
+
+</style>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#50BD49" stop-opacity=".16"/><stop offset=".6" stop-color="#50BD49" stop-opacity=".03"/><stop offset="1" stop-color="#50BD49" stop-opacity=".08"/></linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#50BD49" stop-opacity=".8"/><stop offset=".5" stop-color="#50BD49" stop-opacity=".25"/><stop offset="1" stop-color="#50BD49" stop-opacity=".6"/></linearGradient>
+<filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<defs><linearGradient id="d" x1="0" x2="1"><stop offset="0" stop-color="#50BD49" stop-opacity="0"/><stop offset=".5" stop-color="#50BD49" stop-opacity=".8"/><stop offset="1" stop-color="#50BD49" stop-opacity="0"/></linearGradient></defs>
+<rect x="20" y="7" width="780" height="2" fill="url(#d)"/>
+<circle cy="8" r="3.5" fill="#50BD49" filter="url(#glow)"><animate attributeName="cx" values="60;760;60" dur="6s" repeatCount="indefinite"/></circle>
+</svg>

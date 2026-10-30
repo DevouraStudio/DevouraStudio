@@ -1,0 +1,14 @@
+{
+  "name": "devoura-profile",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Generates the animated SVG cards for the GitHub profile README",
+  "scripts": {
+    "generate": "node scripts/generate.js",
+    "sample": "node scripts/generate.js --sample"
+  },
+  "dependencies": {
+    "sharp": "^0.35.5",
+    "simple-icons": "^16.35.0"
+  }
+}
