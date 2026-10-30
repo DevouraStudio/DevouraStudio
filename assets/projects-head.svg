@@ -28,6 +28,6 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",mo
 <rect x="1" y="1" width="818" height="86" rx="16" fill="#002913"/>
 <rect x="1" y="1" width="818" height="86" rx="16" fill="url(#bg)" stroke="url(#edge)" stroke-width="1.5"/>
 <text x="34" y="46" font-size="22" font-weight="700" fill="#50BD49" filter="url(#glow)">Projects</text>
-<text x="34" y="68" font-size="12" fill="#50BD49" fill-opacity=".7">Selected work, components and full-stack apps</text>
+<text x="34" y="68" font-size="12" fill="#50BD49" fill-opacity=".7">A Collection Of Digital Products &amp; Experiences</text>
 <text x="786" y="46" font-size="12" fill="#50BD49" fill-opacity=".8" text-anchor="end">16 entries</text>
 </svg>
