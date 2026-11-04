@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="74" viewBox="0 0 820 74" role="img" aria-labelledby="title desc">
+  <title id="title">Vibe-coded by Devoura Studio</title>
+  <desc id="desc">A terminal-inspired attribution footer in Devoura Studio's green and dark green brand colors.</desc>
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#50BD49" stop-opacity=".75"/>
+      <stop offset=".5" stop-color="#50BD49" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#50BD49" stop-opacity=".62"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#50BD49" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#50BD49" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#50BD49" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="softGlow" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+      .prompt{fill:#50BD49;fill-opacity:.85}
+      .label{fill:#a8c5ad}
+      .brand{fill:#50BD49;font-weight:700}
+      .cursor{animation:blink .8s steps(1) infinite, type 3.8s steps(15,end) infinite}
+      .brandReveal{clip-path:url(#typeClip);animation:reveal 3.8s steps(15,end) infinite}
+      #typeClip rect{animation:revealWidth 3.8s steps(15,end) infinite}
+      @keyframes blink{50%{opacity:.12}}
+      @keyframes revealWidth{0%,8%{width:0}58%,82%{width:126px}100%{width:0}}
+      @keyframes reveal{0%,8%{opacity:0}9%,100%{opacity:1}}
+      @keyframes type{0%,8%{transform:translateX(0)}58%,82%{transform:translateX(126px)}100%{transform:translateX(0)}}
+      @media(prefers-reduced-motion:reduce){.cursor,.brandReveal{animation:none}#typeClip rect{width:126px}}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="818" height="72" rx="12" fill="#002913" fill-opacity=".96" stroke="url(#edge)" stroke-width="1.4"/>
+  <rect x="1.7" y="1.7" width="816.6" height="22" rx="10" fill="#50BD49" fill-opacity=".07"/>
+  <rect x="1.7" y="14" width="816.6" height="10" fill="#002913" fill-opacity=".96"/>
+  <circle cx="18" cy="12" r="3.2" fill="#50BD49" fill-opacity=".35"/>
+  <circle cx="29" cy="12" r="3.2" fill="#50BD49" fill-opacity=".6"/>
+  <circle cx="40" cy="12" r="3.2" fill="#50BD49"/>
+  <text x="410" y="15.5" font-size="9" fill="#50BD49" fill-opacity=".62" text-anchor="middle">devourastudio — attribution</text>
+  <path d="M28 43l6 5-6 5" fill="none" stroke="#50BD49" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" filter="url(#softGlow)"/>
+  <text x="45" y="52" font-size="12" class="label">VIBE-CODED WITH CREATIVITY &amp; PURPOSE BY</text>
+  <defs>
+    <clipPath id="typeClip"><rect x="548" y="39" width="0" height="18"/></clipPath>
+  </defs>
+  <a href="https://devoura.ir" target="_blank" rel="noopener noreferrer">
+    <text x="548" y="52" font-size="12" class="brand brandReveal">DEVOURA STUDIO</text>
+  </a>
+  <rect x="548" y="42" width="7" height="13" rx="1" fill="#50BD49" class="cursor"/>
+  <rect x="26" y="65" width="768" height="1" fill="url(#glow)" opacity=".45"/>
+</svg>
