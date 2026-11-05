@@ -46,12 +46,3 @@
 <img src="assets/footer.svg" width="100%" alt="Footer"/>
 
 </div>
-
-<!-- Animated Vibe-Coded Attribution -->
-<p align="center">
-  <img
-    src="assets/vibe-coded.svg"
-    alt="Vibe-Coded With Creativity & Purpose By Devoura Studio"
-    width="100%"
-  />
-</p>
