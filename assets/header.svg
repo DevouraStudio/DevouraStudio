@@ -50,10 +50,10 @@ text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",mo
 <g class="fade" style="animation-delay:0.86s"><text x="404" y="175" font-size="11" fill="#50BD49" fill-opacity=".6">Status</text><text x="510" y="175" font-size="11" fill="#50BD49">Designing, Developing, Deploying</text></g>
 <g class="fade" style="animation-delay:0.98s"><text x="404" y="192" font-size="11" fill="#50BD49" fill-opacity=".6">Languages</text><text x="510" y="192" font-size="11" fill="#50BD49">JavaScript, CSS, HTML, EJS</text></g>
 <g class="fade" style="animation-delay:1.10s"><text x="404" y="209" font-size="11" fill="#50BD49" fill-opacity=".6">Repositories</text><text x="510" y="209" font-size="11" fill="#50BD49">17</text></g>
-<g class="fade" style="animation-delay:1.22s"><text x="404" y="226" font-size="11" fill="#50BD49" fill-opacity=".6">Contributions</text><text x="510" y="226" font-size="11" fill="#50BD49">1015</text></g>
+<g class="fade" style="animation-delay:1.22s"><text x="404" y="226" font-size="11" fill="#50BD49" fill-opacity=".6">Contributions</text><text x="510" y="226" font-size="11" fill="#50BD49">1013</text></g>
 <g class="fade" style="animation-delay:1.34s"><text x="404" y="243" font-size="11" fill="#50BD49" fill-opacity=".6">Total Commits</text><text x="510" y="243" font-size="11" fill="#50BD49">311</text></g>
-<g class="fade" style="animation-delay:1.46s"><text x="404" y="260" font-size="11" fill="#50BD49" fill-opacity=".6">Followers</text><text x="510" y="260" font-size="11" fill="#50BD49">70</text></g>
-<g class="fade" style="animation-delay:1.58s"><text x="404" y="277" font-size="11" fill="#50BD49" fill-opacity=".6">Active Days</text><text x="510" y="277" font-size="11" fill="#50BD49">98</text></g>
+<g class="fade" style="animation-delay:1.46s"><text x="404" y="260" font-size="11" fill="#50BD49" fill-opacity=".6">Followers</text><text x="510" y="260" font-size="11" fill="#50BD49">69</text></g>
+<g class="fade" style="animation-delay:1.58s"><text x="404" y="277" font-size="11" fill="#50BD49" fill-opacity=".6">Active Days</text><text x="510" y="277" font-size="11" fill="#50BD49">97</text></g>
 <g class="fade" style="animation-delay:1.70s"><text x="404" y="294" font-size="11" fill="#50BD49" fill-opacity=".6">Contact</text><text x="510" y="294" font-size="11" fill="#50BD49">www.devoura.ir</text></g>
 <rect x="2" y="-40" width="816" height="40" fill="#50BD49" opacity=".07"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 380" dur="5s" repeatCount="indefinite"/></rect>
 </svg>
